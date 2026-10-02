@@ -33,10 +33,10 @@ def create_order(e):
 # display(f"Subtotal: ₱ {subtotal:.2f} ", target="show")
 # display(f"VAT: ₱ {tax:.2f} ", target="show")
 # display(f"Total: ₱ {total:.2f} ", target="show")
-  receipt = f"""
-  <h3>==== Receipt ====</h3>
-  <p>Subtotal: ₱{subtotal:.2f}</p>
-  <p>Tax: ₱{tax:.2f}</p>
-  <p><strong>Total: ₱{total:.2f}</strong></p>
+    receipt = f"""
+    <h3>==== Receipt ====</h3>
+    <p>Subtotal: ₱{subtotal:.2f}</p>
+    <p>Tax: ₱{tax:.2f}</p>
+    <p><strong>Total: ₱{total:.2f}</strong></p>
 """
-document.getElementById("show").innerHTML = receipt # use this instead of display to avoid displaying the HTML tags
+    document.getElementById("show").innerHTML = receipt # use this instead of display to avoid displaying the HTML tags
