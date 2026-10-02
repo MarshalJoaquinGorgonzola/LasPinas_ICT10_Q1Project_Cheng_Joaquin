@@ -1,0 +1,38 @@
+body {
+    background-image: url("market.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.container {
+    width: 300px;
+    height: 475px;
+    background-color: #ffffff;
+    border: 5px solid #a38558;
+    padding: 10px;
+    margin: 15px auto;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    background-color: #5c4b32;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.title-card {
+    display: flex;
+    align-items: center;
+    background-color: #715a37;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 10px 20px;
+    height: 80px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
