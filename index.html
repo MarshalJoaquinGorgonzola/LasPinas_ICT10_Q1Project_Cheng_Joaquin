@@ -80,36 +80,35 @@
         <h2 style="text-align: center;">Menu</h2>
         <form id="orderForm" style="text-align: center;">
 
-            <input type="checkbox" id="americano">
+            <input type="checkbox" id="americano" value="120">
             <label for="americano">Americano (₱120)</label>
             <br>
 
-            <input type="checkbox" id="latte">
+            <input type="checkbox" id="latte" value="140">
             <label for="latte">Spanish Latte (₱140)</label>
             <br>
 
-            <input type="checkbox" id="malt">
+            <input type="checkbox" id="malt" value="160">
             <label for="malt">Cold Brew Malt (₱160)</label>
             <br>
 
-            <input type="checkbox" id="affogato">
+            <input type="checkbox" id="affogato" value="150">
             <label for="affogato">Affogato (₱150)</label>
             <br>
-            <input type="checkbox" id="caramel">
+            <input type="checkbox" id="caramel" value="145">
             <label for="caramel">Caramel Macchiato (₱145)</label>
             <br>
-            <input type="checkbox" id="papoi">
+            <input type="checkbox" id="papoi" value="10000">
             <label for="papoi"> Sacred Papoi (₱10,000)</label>
             <br><br>
 
-            <button type="button" py-click="createOrder" class="button">
-                Generate Official Receipt
-            </button>
-
+        
+            <button type="button" onclick="createOrder()" py-click="create_order" class="button"> Generate Official Receipt </button>
         </form>
 
-        <div id="receipt" style="text-align: center;"></div>
+        <div id="show" style="text-align: center;"></div>
 
     </div>
+    
 </body>
 </html>
